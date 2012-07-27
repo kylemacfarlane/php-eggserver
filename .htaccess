@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^download/(.*)$ /?download=$1 [L,NC]
